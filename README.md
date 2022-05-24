@@ -2,7 +2,7 @@
 🎓 Graduated in B.Tech - Vellore Institute of Technology
 👨‍💻 All of my projects are available at My Portfolio
 ⭐ Level One Seller on fiverr
-🏆 Completed more than 8 projects with International clients with 5-star ratings and reviews (Fiverr Account)
+🏆 Completed more than 5 projects with Natiotional and 2 projects with International clients with 5-star ratings and reviews (Fiverr Account)
 🤠 Coded 4000+ hours
 ⭐ 20+ Repositories on GitHub
 📫 How to reach me saunakghosh710@gmail.com
