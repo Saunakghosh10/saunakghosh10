@@ -1,4 +1,3 @@
-![MasterHead](https://github.com/Saunakghosh10/saunakghosh10/assets/76943154/afbbfbb2-e69a-4be5-a99d-1a9d2981225f)
 <h1 align="center">Hi 👋, I'm Saunak Ghosh</h1>
 <h3 align="center">A passionate Full-Stack developer from India</h3>
 
