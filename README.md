@@ -18,6 +18,13 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Saunakghosh10&theme=radical&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Saunakghosh10&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
+<!--START_SECTION:waka-->
+
+WAKATIME_API_KEY=waka_603f8dc2-0d47-45f6-866f-bf7eaa3c0ad7
+GH_TOKEN=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
+
+<!--END_SECTION:waka-->
+
 ### ✍️Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
