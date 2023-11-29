@@ -20,9 +20,6 @@
 
 
 
-
-
-
 <!--START_SECTION:waka-->
 name: Waka Readme
 
@@ -38,8 +35,8 @@ jobs:
     steps:
       - uses: anmol098/waka-readme-stats@master
         with:
-          WAKATIME_API_KEY: ${{ waka_603f8dc2-0d47-45f6-866f-bf7eaa3c0ad7 }}
-          GH_TOKEN: ${{ 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 }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 <!--END_SECTION:waka-->
 ### ✍️Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
