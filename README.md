@@ -52,10 +52,21 @@
 
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
+<div align=center>
+  <img width=390 src="https://streak-stats.demolab.com/?user=saunakghosh10" alt="streak stats"/>
+  <img width=390 src="https://github-readme-stats.vercel.app/api/wakatime?username=saunak" alt="readme stats" />
+  <br/>
+  <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saunakghosh10&layout=donut-vertical" alt="top langs" />
+</div>
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=saunakghosh10)](https://git.io/streak-stats)
 <br/><br/>
 
 <hr/>
+
+<br/>
+
+<div align="center">
+<a href='https://www.buymeacoffee.com/saunakghosh' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+</div>
 
 <br/>
