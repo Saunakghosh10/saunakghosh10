@@ -41,3 +41,21 @@
 
 <br/>
 <hr/>
+
+<div align="center">
+  <h2>🐍 My Contributions 🐍</h2>
+  <br>
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/saunakghosh10/saunakghosh10/output/github-contribution-grid-snake.svg" />
+  
+  <br/><br/><br/>
+</div>
+
+<h2 align="center">⚡ Stats ⚡</h2>
+<br>
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=saunakghosh10)](https://git.io/streak-stats)
+<br/><br/>
+
+<hr/>
+
+<br/>
