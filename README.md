@@ -31,5 +31,5 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=saunakghosh10&" alt="saunakghosh10" /></p>
 
-![snake gif](https://github.com/saunakghosh10/saunakghosh10/blob/output/github-contribution-grid-snake.gif)
+![snake gif](https://github.com/Saunakghosh10/Saunakghosh10/blob/output/github-contribution-grid-snake.gif)
 
