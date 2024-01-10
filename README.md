@@ -8,7 +8,7 @@
 
 <div align="center">
  
- 🔭 I’m currently working on **Pentadots**
+ 🔭 I’m currently working on **Pentadots** as Intern
  
  🌱 I’m currently learning **Next.js and Tensorflow**
 
