@@ -60,6 +60,7 @@
 </div>
 
 [![Saunakghosh10's GitHub | Stats](https://stats.quine.sh/Saunakghosh10/github?theme=dark)](https://quine.sh?utm_source=widgets&utm_campaign=Saunakghosh10)
+[![Saunakghosh10's GitHub | Languages Over Time](https://stats.quine.sh/Saunakghosh10/languages-over-time?theme=dark)](https://quine.sh?utm_source=widgets&utm_campaign=Saunakghosh10)
 
 <br/><br/>
 
