@@ -52,15 +52,25 @@
 
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
-<div align=center>
-<!--   <img width=390 src="https://streak-stats.demolab.com/?user=saunakghosh10" alt="streak stats" /> -->
-  <img width=390 src="https://github-readme-stats.vercel.app/api/wakatime?username=saunak" alt="readme stats" />
-  <br/>
-<!--   <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saunakghosh10&layout=donut-vertical" alt="top langs" /> -->
+<div align="center">
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <!-- Uncomment the following line if you want to include streak stats -->
+    <!-- <img width="390" src="https://streak-stats.demolab.com/?user=saunakghosh10" alt="streak stats" /> -->
+    <img width="390" src="https://github-readme-stats.vercel.app/api/wakatime?username=saunak" alt="readme stats" />
+    <br/>
+      <a href="https://quine.sh?utm_source=widgets&utm_campaign=Saunakghosh10">
+      <img src="https://stats.quine.sh/Saunakghosh10/github?theme=dark" alt="Saunakghosh10's GitHub | Stats" />
+    </a>
+    <a href="https://quine.sh?utm_source=widgets&utm_campaign=Saunakghosh10">
+      <img src="https://stats.quine.sh/Saunakghosh10/languages-over-time?theme=dark" alt="Saunakghosh10's GitHub | Languages Over Time" />
+    </a>
+<!--     Uncomment the following line if you want to include top languages -->
+    <!-- <img width="325" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saunakghosh10&layout=donut-vertical" alt="top langs" /> -->
     
-[![Saunakghosh10's GitHub | Stats](https://stats.quine.sh/Saunakghosh10/github?theme=dark)](https://quine.sh?utm_source=widgets&utm_campaign=Saunakghosh10)
-[![Saunakghosh10's GitHub | Languages Over Time](https://stats.quine.sh/Saunakghosh10/languages-over-time?theme=dark)](https://quine.sh?utm_source=widgets&utm_campaign=Saunakghosh10)
+    
+  </div>
 </div>
+
 
 
 <br/><br/>
