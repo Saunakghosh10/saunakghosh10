@@ -56,8 +56,10 @@
 <!--   <img width=390 src="https://streak-stats.demolab.com/?user=saunakghosh10" alt="streak stats" /> -->
   <img width=390 src="https://github-readme-stats.vercel.app/api/wakatime?username=saunak" alt="readme stats" />
   <br/>
-  <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saunakghosh10&layout=donut-vertical" alt="top langs" />
+<!--   <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saunakghosh10&layout=donut-vertical" alt="top langs" /> -->
 </div>
+
+[![Saunakghosh10's GitHub | Stats](https://stats.quine.sh/Saunakghosh10/github?theme=dark)](https://quine.sh?utm_source=widgets&utm_campaign=Saunakghosh10)
 
 <br/><br/>
 
