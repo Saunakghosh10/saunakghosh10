@@ -8,9 +8,9 @@
 
 <div align="center">
  
- 🔭 I’m currently working on **Pentadots** as Intern
+ 🔭 I’m currently working on **Adapt and ModelMatch** as Part-Time
  
- 🌱 I’m currently learning **Next.js and Tensorflow**
+ 🌱 I’m currently going with the flow of **Next.js and Tensorflow**
 
 💬 Ask me about **Node.js, React, Firebase... or anything [here](https://github.com/saunakghosh10/saunakghosh10/issues)**
 
