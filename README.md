@@ -1,87 +1,71 @@
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Saunakghosh10.saunakghosh10" />
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=saunakghosh10.saunakghosh10&color=A6FF00&style=flat-square" />
 
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&color=0892d0&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hello+There!+👋;+I'm+Saunak+Ghosh!;" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&weight=600&size=32&duration=3000&pause=1000&color=A6FF00&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Saunak+Ghosh;Backend+%2F+AI+Engineer;Building+BharatVoice+%40+Takkada;Shipping+RAG+pipelines+%26+agents" alt="Typing SVG" />
 </h1>
 
-<h3 align="center">A passionate software developer from India</h3>
+<p align="center">
+  <a href="https://your-portfolio-url.com" target="_blank"><img src="https://img.shields.io/badge/Portfolio-0D0D0D?style=for-the-badge&logo=vercel&logoColor=A6FF00" /></a>
+  <a href="https://www.linkedin.com/in/saunak-ghosh10/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0D0D0D?style=for-the-badge&logo=linkedin&logoColor=A6FF00" /></a>
+  <a href="https://x.com/your_handle" target="_blank"><img src="https://img.shields.io/badge/X-0D0D0D?style=for-the-badge&logo=x&logoColor=A6FF00" /></a>
+  <a href="mailto:saunakofficial10@gmail.com"><img src="https://img.shields.io/badge/Email-0D0D0D?style=for-the-badge&logo=gmail&logoColor=A6FF00" /></a>
+</p>
 
 <div align="center">
- 
- 🔭 I’m currently working on **Adapt and ModelMatch** as Part-Time
- 
- 🌱 I’m currently going with the flow of **Next.js and Tensorflow**
 
-💬 Ask me about **Node.js, React, Firebase... or anything [here](https://github.com/saunakghosh10/saunakghosh10/issues)**
+|  |  |
+|---|---|
+| **Role** | Backend Engineer @ [Takkada](https://takkada.com) — building **BharatVoice**, a multilingual voice AI platform |
+| **Focus** | RAG pipelines · agentic systems (LangGraph) · LLM fine-tuning · backend infra |
+| **Grinding** | Competitive programming — Codeforces ~1700, 400+ DSA problems solved |
+| **Goal** | Backend / Applied AI SDE at a top AI company |
 
-⚡ Fun fact **Game of Thrones Night's Watch cloaks are made from Ikea rugs**
-
- </div>
-
- <div align="center"> 
-  <a href="mailto:saunakofficial10@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
-  </a>
-  <a href="https://www.linkedin.com/in/saunak-ghosh10/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
-  </a>
-  <a href="https://my-portfolio-ruby-ten-94.vercel.app/" target="_blank">
-     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
-  </a>
 </div>
 
- <hr/>
-
-<h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=react,bootstrap,mui,html,css,vscode,github,figma,tailwind,git" />
-    <img src="https://skillicons.dev/icons?i=nodejs,python,javascript,typescript,express,firebase,mongodb,c,java,nextjs,mysql" /><br>
-</div>
+
+### ⚡ Currently building
+- **BharatVoice** — multilingual voice AI platform, production RAG + LLM pipelines at [Takkada](https://takkada.com)
+- **Open Emergent** — self-hostable AI app builder powered by a 9-agent parallel LangGraph mesh
+- **RAG Pipeline Optimizer** — hybrid retrieval (BM25 + Cross-Encoder reranking) on Qdrant, with Redis caching + Langfuse observability
+- **AgentMesh** — multi-agent orchestration framework built on CrewAI / LangGraph + the Anthropic API, speaking MCP
+- **CopyCraft** — AI copywriting SaaS with 20+ conversion frameworks
+
+<br/>
+
+<h3 align="center">⚒️ Tech Stack ⚒️</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,typescript,nodejs,fastapi,nextjs,postgres,redis,docker,gcp&theme=dark" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/LangGraph-0D0D0D?style=for-the-badge&logoColor=A6FF00" />
+  <img src="https://img.shields.io/badge/LangChain-0D0D0D?style=for-the-badge&logo=langchain&logoColor=A6FF00" />
+  <img src="https://img.shields.io/badge/Qdrant-0D0D0D?style=for-the-badge&logoColor=A6FF00" />
+  <img src="https://img.shields.io/badge/Anthropic%20API-0D0D0D?style=for-the-badge&logoColor=A6FF00" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-0D0D0D?style=for-the-badge&logo=huggingface&logoColor=A6FF00" />
+</p>
+
+<br/>
+
+<h3 align="center">🐍 Contribution Snake 🐍</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/saunakghosh10/saunakghosh10/output/github-contribution-grid-snake-dark.svg" />
+</p>
+
+<br/>
+
+<h3 align="center">⚡ Stats ⚡</h3>
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=saunakghosh10&show_icons=true&count_private=true&hide_border=true&bg_color=0D0D0D&title_color=A6FF00&icon_color=A6FF00&text_color=E8E8E8" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saunakghosh10&layout=compact&hide_border=true&bg_color=0D0D0D&title_color=A6FF00&text_color=E8E8E8" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=saunakghosh10&hide_border=true&background=0D0D0D&ring=A6FF00&fire=A6FF00&currStreakLabel=A6FF00" />
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=saunakghosh10&theme=algolia&no-frame=true&column=6&margin-w=8&margin-h=8" />
+</p>
 
 <br/>
 <hr/>
-
-<div align="center">
-  <h2>🐍 My Contributions 🐍</h2>
-  <br>
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/saunakghosh10/saunakghosh10/output/github-contribution-grid-snake.svg" />
-  
-  <br/><br/><br/>
-</div>
-
-<h2 align="center">⚡ Stats ⚡</h2>
-<br>
-<div align="center">
-  <div style="display: flex; justify-content: center; align-items: center;">
-    <!-- Uncomment the following line if you want to include streak stats -->
-    <!-- <img width="390" src="https://streak-stats.demolab.com/?user=saunakghosh10" alt="streak stats" /> -->
-    <img width="390" src="https://github-readme-stats.vercel.app/api/wakatime?username=saunak" alt="readme stats" />
-    <br/>
-      <a href="https://quine.sh?utm_source=widgets&utm_campaign=Saunakghosh10">
-      <img src="https://stats.quine.sh/Saunakghosh10/github?theme=dark" alt="Saunakghosh10's GitHub | Stats" />
-    </a>
-    <a href="https://quine.sh?utm_source=widgets&utm_campaign=Saunakghosh10">
-      <img src="https://stats.quine.sh/Saunakghosh10/languages-over-time?theme=dark" alt="Saunakghosh10's GitHub | Languages Over Time" />
-    </a>
-<!--     Uncomment the following line if you want to include top languages -->
-    <!-- <img width="325" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saunakghosh10&layout=donut-vertical" alt="top langs" /> -->
-    
-    
-  </div>
-</div>
-
-
-
-<br/><br/>
-
-<hr/>
-
-<br/>
-
-
-<div align="center">
-<a href='https://www.buymeacoffee.com/saunakghosh' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-</div>
-
-<br/>
+<p align="center"><i>Open to Backend / Applied AI roles — always happy to talk shop about RAG, agents, or CP.</i></p>
