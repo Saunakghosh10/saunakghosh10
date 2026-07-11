@@ -14,6 +14,8 @@ USER_NAME = os.environ.get('USER_NAME', 'Saunakghosh10')
 
 HEADERS = {'authorization': f'token {ACCESS_TOKEN}'} if ACCESS_TOKEN else {}
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
+OWNER_ID = None
+
 
 
 def daily_readme(birthday):
@@ -42,7 +44,7 @@ def simple_request(func_name, query, variables):
     """
     if not HEADERS:
         raise Exception("ACCESS_TOKEN environment variable is required to run this script.")
-    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS)
+    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS, timeout=15)
     if request.status_code == 200:
         return request
     raise Exception(func_name, ' has failed with a', request.status_code, request.text, QUERY_COUNT)
@@ -110,23 +112,15 @@ def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, delet
     """
     query_count('recursive_loc')
     query = '''
-    query ($repo_name: String!, $owner: String!, $cursor: String) {
+    query ($repo_name: String!, $owner: String!, $cursor: String, $author_id: ID) {
         repository(name: $repo_name, owner: $owner) {
             defaultBranchRef {
                 target {
                     ... on Commit {
-                        history(first: 100, after: $cursor) {
+                        history(first: 100, after: $cursor, author: {id: $author_id}) {
                             totalCount
                             edges {
                                 node {
-                                    ... on Commit {
-                                        committedDate
-                                    }
-                                    author {
-                                        user {
-                                            id
-                                        }
-                                    }
                                     deletions
                                     additions
                                 }
@@ -141,8 +135,8 @@ def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, delet
             }
         }
     }'''
-    variables = {'repo_name': repo_name, 'owner': owner, 'cursor': cursor}
-    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS)
+    variables = {'repo_name': repo_name, 'owner': owner, 'cursor': cursor, 'author_id': OWNER_ID['id']}
+    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS, timeout=15)
     if request.status_code == 200:
         if request.json()['data']['repository']['defaultBranchRef'] != None: # Only count commits if repo isn't empty
             return loc_counter_one_repo(owner, repo_name, data, cache_comment, request.json()['data']['repository']['defaultBranchRef']['target']['history'], addition_total, deletion_total, my_commits)
@@ -159,10 +153,9 @@ def loc_counter_one_repo(owner, repo_name, data, cache_comment, history, additio
     only adds the LOC value of commits authored by me
     """
     for node in history['edges']:
-        if node['node']['author']['user'] == OWNER_ID:
-            my_commits += 1
-            addition_total += node['node']['additions']
-            deletion_total += node['node']['deletions']
+        my_commits += 1
+        addition_total += node['node']['additions']
+        deletion_total += node['node']['deletions']
 
     if history['edges'] == [] or not history['pageInfo']['hasNextPage']:
         return addition_total, deletion_total, my_commits
@@ -177,7 +170,7 @@ def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None,
     """
     query_count('loc_query')
     query = '''
-    query ($owner_affiliation: [RepositoryAffiliation], $login: String!, $cursor: String) {
+    query ($owner_affiliation: [RepositoryAffiliation], $login: String!, $cursor: String, $author_id: ID) {
         user(login: $login) {
             repositories(first: 60, after: $cursor, ownerAffiliations: $owner_affiliation) {
             edges {
@@ -187,7 +180,7 @@ def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None,
                         defaultBranchRef {
                             target {
                                 ... on Commit {
-                                    history {
+                                    history(author: {id: $author_id}) {
                                         totalCount
                                         }
                                     }
@@ -203,7 +196,7 @@ def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None,
             }
         }
     }'''
-    variables = {'owner_affiliation': owner_affiliation, 'login': USER_NAME, 'cursor': cursor}
+    variables = {'owner_affiliation': owner_affiliation, 'login': USER_NAME, 'cursor': cursor, 'author_id': OWNER_ID['id']}
     request = simple_request(loc_query.__name__, query, variables)
     if request.json()['data']['user']['repositories']['pageInfo']['hasNextPage']:   # If repository data has another page
         edges += request.json()['data']['user']['repositories']['edges']            # Add on to the LoC count
@@ -242,11 +235,13 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
         repo_hash, commit_count, *__ = data[index].split()
         if repo_hash == hashlib.sha256(edges[index]['node']['nameWithOwner'].encode('utf-8')).hexdigest():
             try:
-                if int(commit_count) != edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']:
+                current_total = edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']
+                if int(commit_count) != current_total:
                     # if commit count has changed, update loc for that repo
                     owner, repo_name = edges[index]['node']['nameWithOwner'].split('/')
+                    print(f"[{index + 1}/{len(edges)}] Counting LOC for {owner}/{repo_name} (commits: {current_total})...")
                     loc = recursive_loc(owner, repo_name, data, cache_comment)
-                    data[index] = repo_hash + ' ' + str(edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']) + ' ' + str(loc[2]) + ' ' + str(loc[0]) + ' ' + str(loc[1]) + '\n'
+                    data[index] = repo_hash + ' ' + str(current_total) + ' ' + str(loc[2]) + ' ' + str(loc[0]) + ' ' + str(loc[1]) + '\n'
             except TypeError: # If the repo is empty
                 data[index] = repo_hash + ' 0 0 0 0\n'
     with open(filename, 'w') as f:
