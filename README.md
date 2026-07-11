@@ -47,6 +47,16 @@
 
 <br/>
 
+### ⚡ Stats ⚡
+<p align="center">
+  <a href="https://github.com/Saunakghosh10/saunakghosh10">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Saunakghosh10/saunakghosh10/main/dark_mode.svg">
+      <img alt="Saunak Ghosh's GitHub Profile README" src="https://raw.githubusercontent.com/Saunakghosh10/saunakghosh10/main/light_mode.svg" width="100%">
+    </picture>
+  </a>
+</p>
+
 <h3 align="center">🐍 Contribution Snake 🐍</h3>
 <p align="center">
   <img src="https://raw.githubusercontent.com/saunakghosh10/saunakghosh10/output/github-contribution-grid-snake-dark.svg" />
@@ -54,18 +64,6 @@
 
 <br/>
 
-<h3 align="center">⚡ Stats ⚡</h3>
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=saunakghosh10&show_icons=true&count_private=true&hide_border=true&bg_color=0D0D0D&title_color=A6FF00&icon_color=A6FF00&text_color=E8E8E8" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saunakghosh10&layout=compact&hide_border=true&bg_color=0D0D0D&title_color=A6FF00&text_color=E8E8E8" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=saunakghosh10&hide_border=true&background=0D0D0D&ring=A6FF00&fire=A6FF00&currStreakLabel=A6FF00" />
-</p>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=saunakghosh10&theme=algolia&no-frame=true&column=6&margin-w=8&margin-h=8" />
-</p>
 
-<br/>
 <hr/>
 <p align="center"><i>Open to Backend / Applied AI roles — always happy to talk shop about RAG, agents, or CP.</i></p>
